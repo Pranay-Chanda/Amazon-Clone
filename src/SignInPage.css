@@ -1,0 +1,121 @@
+.signin {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.signin > span {
+  display: flex;
+  font-size: small;
+  color: #6a6d73;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 340px;
+}
+
+.signin > span::before,
+.signin > span::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #a8aaaf;
+}
+
+.signin > span:not(:empty)::before {
+  margin-right: 0.25em;
+}
+
+.signin > span:not(:empty)::after {
+  margin-left: 0.25em;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  object-fit: contain;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sigin__container {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+
+.sigin__container > h1 {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.sigin__container > form > h5 {
+  margin-bottom: 5px;
+}
+
+.sigin__container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  width: 98%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.sigin__container > form > input:focus {
+  border-color: #f0c14b;
+  box-shadow: 0 0 5px 1px #f0c14b;
+  outline: none;
+}
+
+.signin__button {
+  height: 30px;
+  width: 100%;
+  background-color: #f0c14b;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.signin__button:hover {
+  cursor: pointer;
+  background: #d89e0b;
+}
+
+.sigin__container > p {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.singin__createAccount {
+  height: 30px;
+  width: 340px;
+  border-radius: 5px;
+  background-color: #dde3ee;
+  border: 1px solid #a8aaaf;
+}
+
+.singin__createAccount:hover {
+  background-color: #cdd4e0;
+}
+
+hr.solid {
+  width: 100vh;
+  margin-top: 30px;
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(
+    to right,
+    rgba(185, 179, 179, 0),
+    rgba(185, 179, 179, 0.75),
+    rgba(185, 179, 179, 0)
+  );
+}

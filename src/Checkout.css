@@ -1,0 +1,38 @@
+.checkout {
+  display: flex;
+  padding: 20px;
+  height: max-content;
+}
+
+.checkout__ad {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.checkout__title {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #cccccd;
+}
+
+.checkout__shopingCart {
+  background-color: #fff;
+  min-height: 500px;
+}
+
+.checkout__product {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.checkout__bottom {
+  display: flex;
+  background-color: #fff;
+  min-height: 100px;
+  max-width: 100%;
+  padding: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
